@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<my.android.fossstore.widget.FragmentLinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="?android:attr/actionBarTheme"
+    android:background="?android:attr/colorPrimary"
+    android:elevation="4dp">
+
+    <my.android.fossstore.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:popupTheme="@style/Theme.Main.Toolbar.Popup" />
+
+    <FrameLayout
+      android:id="@+id/toolbar_extra"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  </LinearLayout>
+
+  <FrameLayout
+    android:id="@+id/fragment_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="?android:attr/colorBackground" />
+
+</my.android.fossstore.widget.FragmentLinearLayout>
