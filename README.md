@@ -14,6 +14,5 @@ a personal fork of [Foxy Droid](https://github.com/kitsunyan/foxy-droid) for [My
 ## Screenshots
 
 ### Changes
-### v0.1
   - [X] Based on Foxy Droid v1.3 b4
   - [X] add [bromite repo](https://www.bromite.org/fdroid)
